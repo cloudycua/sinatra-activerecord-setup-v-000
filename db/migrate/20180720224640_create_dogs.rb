@@ -12,5 +12,11 @@ class CreateDogs < ActiveRecord::Migration
 
 # alternative to the up/down where the rollback (down) method
 # is implicit in the change method.
+#  def change
+#    create_table :dogs do |t|
+#      t.string :name
+#      t.string :breed
+#    end
+#  end
 
 end
