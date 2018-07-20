@@ -9,4 +9,8 @@ class CreateDogs < ActiveRecord::Migration
   def down
     drop_table :dogs
   end
+
+# alternative to the up/down where the rollback (down) method
+# is implicit in the change method.
+
 end
